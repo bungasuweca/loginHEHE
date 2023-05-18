@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Roboto+Slab&display=swap');
+
+@font-face {
+    font-family: ktb;
+    src: url(fonts/Katibeh/Katibeh-Regular.ttf);
+}
+
+* {
+    font-family: 'Poppins';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+title {
+    align-items: center;
+    color: #000;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 60px;
+    background-image: url('../bg/bwege.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    /* background-color: #828282; */
+
+}
+
+.container .content {
+    text-align: center;
+}
+
+.container .content h3 {
+    font-size: 50px;
+    color: black;
+}
+
+.container .content h3 span {
+    background: antiquewhite;
+    color: #ffff;
+    border-radius: 5px;
+    padding: 0 15 px;
+}
+
+.container .content h1 {
+    font-size: 50px;
+    color: black;
+}
+
+.container .content h1 span {
+    color: white;
+    background: #000;
+}
+
+.container .content p {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.container .content .btn {
+    display: inline-block;
+    padding: 10px 30px;
+    background: #333;
+    color: #ffff;
+    margin: 0 5px;
+    border-radius: 2vh;
+    text-transform: capitalize;
+}
+
+.container .content .btn:hover {
+    background: white;
+    color: #000;
+}
+
+.form-container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 60px;
+
+}
+
+.form-container form {
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 10px 10px #000;
+    background: #eee;
+    text-align: center;
+    width: 500px;
+}
+
+.form-container form h3 {
+    font-family: ktb;
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.form-container form input {
+    width: 78%;
+    height: 45px;
+    box-sizing: border-box;
+    font-size: 15px;
+    margin: 8px 0;
+    background: #eee;
+    border-radius: 5px;
+    padding-left: 8px;
+}
+
+.form-container form .form-btn {
+    font-family: ktb;
+    width: 30%;
+    margin-top: 5vh;
+    background: #000;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 30px;
+    padding-right: 8px;
+}
+
+.form-container form .form-btn:hover {
+    background: rgb(255, 255, 255);
+    color: #000;
+    box-shadow: 2px 2px #000;
+}
+
+.form-container form .error-msg {
+    margin: 10px 0;
+    display: block;
+    background: #000;
+    color: #ffff;
+    font-size: 20px;
+}
+
+.a href {
+    text-decoration: underline;
+}
+
+.error-msg {
+    display: block;
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: .5rem 0;
+}
